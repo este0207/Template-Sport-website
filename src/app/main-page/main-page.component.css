@@ -1,0 +1,10 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 87vh;
+    align-items: flex-end;
+}
+/* 
+*{
+    border: solid 1px red;
+} */
