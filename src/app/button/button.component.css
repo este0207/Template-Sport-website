@@ -1,0 +1,40 @@
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+button {
+    animation: slideUp 1s ease-out;
+}
+
+button {
+    padding: 20px;
+    border-radius: 50px;
+    border: solid 2px white;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    padding: 20px;
+    padding-bottom: 40px;
+}

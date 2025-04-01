@@ -1,0 +1,47 @@
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.logo, .links, .socials {
+    animation: slideUp 1s ease-out;
+}
+.nav-bar {
+    display: grid;
+    position: sticky;
+    top: -1px;
+    grid-template-columns: 4fr 5fr 1fr 1fr;
+    width: 98%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.logo img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.logo ,.links, .socials, .panier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    justify-content: flex-start;
+}
+
+.panier {
+    font-size: 20px;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 30px;
+    gap: 10px;
+}

@@ -1,0 +1,18 @@
+a {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    width: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    transition: 0.6s
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f0a500;
+}

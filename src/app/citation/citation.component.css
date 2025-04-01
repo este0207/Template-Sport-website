@@ -1,0 +1,23 @@
+.full{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 300px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background: rgb(211, 187, 96);
+    background: linear-gradient(168deg, rgba(211, 187, 96, 1) 0%, rgba(169, 172, 162, 1) 100%);
+}
+
+h1{
+    letter-spacing: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+p{
+    font-size: 15px;
+}

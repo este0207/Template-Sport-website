@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    animation: slideUp 1s ease-out;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0px;
+    padding-left: 10%;
+    padding-bottom: 40px;
+    line-height: 0.8;
+}

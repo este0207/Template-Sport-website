@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    overflow-x: hidden;
+    background-image: url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    backdrop-filter: saturate(130%);
+    height: 100vh;
+    scroll-behavior: smooth;
+}
