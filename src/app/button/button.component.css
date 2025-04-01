@@ -1,3 +1,19 @@
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+button {
+    animation: slideUp 1s ease-out;
+}
+
 button {
     padding: 20px;
     border-radius: 50px;
